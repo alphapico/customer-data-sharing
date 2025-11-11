@@ -1,0 +1,17 @@
+﻿<Window x:Class="IMSE5515DataValidation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMSE5515DataValidation"
+        mc:Ignorable="d"
+        Title="IMSE5515 Validation" Height="160" Width="468">
+
+    <Grid>
+        <Label Content="Reel" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="90,27,0,0" TextWrapping="Wrap" Text="{Binding Reel}" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Validate" HorizontalAlignment="Left" Margin="262,29,0,0" VerticalAlignment="Top" Command="{Binding ValidateCommand}"/>
+        <Button Content="Create Sample CSV" HorizontalAlignment="Left" Margin="262,65,0,0" VerticalAlignment="Top" Height="20" Width="119" Command="{Binding CsvExportCommand}"/>
+
+    </Grid>
+</Window>

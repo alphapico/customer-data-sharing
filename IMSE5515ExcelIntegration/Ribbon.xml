@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="group1" label="IMSE5515">
+          <button id="button1" label="Get Data from start and end" onAction="GetIMSE5515Data" showImage="false" />
+          <button id="button2" label="Get Data from List" onAction="GetIMSE5515DataByList" showImage="false" />
+          <button id="button3" label="Add Extended Columns" onAction="AddAdditionalColumns" showImage="false" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

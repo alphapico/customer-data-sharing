@@ -1,0 +1,8 @@
+﻿<Application x:Class="IMSE5515DataValidation.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:IMSE5515DataValidation"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+    </Application.Resources>
+</Application>
